@@ -1,7 +1,7 @@
-from backend.agents.search_agent import SearchAgent
-from backend.agents.extractor_agent import ExtractorAgent
-from backend.agents.summarizer_agent import SummarizationAgent
-from backend.agents.insight_agent import InsightAgent
+from agents.search_agent import SearchAgent
+from agents.extractor_agent import ExtractorAgent
+from agents.summarizer_agent import SummarizationAgent
+from agents.insight_agent import InsightAgent
 from typing import Dict
 
 class ResearchManager:
