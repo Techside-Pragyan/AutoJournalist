@@ -1,6 +1,6 @@
 import openai
 import json
-from backend.config import config
+from config import config
 from typing import Dict, List
 
 class InsightAgent:

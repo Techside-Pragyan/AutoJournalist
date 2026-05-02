@@ -1,5 +1,5 @@
 import openai
-from backend.config import config
+from config import config
 
 class SummarizationAgent:
     """Agent responsible for summarizing extracted article text."""
