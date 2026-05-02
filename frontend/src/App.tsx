@@ -95,8 +95,7 @@ function App() {
     localStorage.setItem('researchHistory', JSON.stringify(newHistory));
 
     try {
-      // Point this to your backend running locally or deployed
-      const response = await axios.post('http://localhost:8000/api/research', {
+      const response = await axios.post('http://localhost:8001/api/research', {
         query: q,
         language: language,
         num_results: 5
